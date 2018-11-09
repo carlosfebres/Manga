@@ -1,4 +1,4 @@
-package Class;
+package utils;
 
 import java.io.*;
 import java.util.Properties;
@@ -11,7 +11,7 @@ public class Props {
         InputStream is = null;
 
         try {
-            File f = new File("config.properties");
+            File f = new File("../../webapp/config.properties");
             is = new FileInputStream(f);
         } catch (Exception e) {
             System.out.println("Another Try");
